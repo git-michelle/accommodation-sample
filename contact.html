@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Welcome to the mosts extraordinary hotel in Boston MA"
+    />
+    <meta
+      name="keywords"
+      content="hotel,boston,massachusetts,downtown boston hotel"
+    />
+    <script
+      src="https://kit.fontawesome.com/9fc022b51e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/mobile.css"
+      media="screen and (max-width:768px"
+    />
+    <title>Hotel BC | Contact</title>
+  </head>
+
+  <body>
+    <!-- Header contains navbar -->
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <!--add container INSIDE navbar to move text without affecting navbar background color styling-->
+          <!-- Note the class "current" is moved to the contact nav link-->
+          <h1 class="logo"><a href="./index.html">HBC</a></h1>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a class="./current" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Contact Form Section  -->
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact </span> Us</h1>
+
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Contact Info Section  -->
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <section id="features">
+          <div class="box">
+            <i class="fas fa-hotel fa-3x"></i>
+            <h3>Location</h3>
+            <p>122 Burrard St, Vancouver, BC</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-phone fa-3x"></i>
+            <h3>Phone Number</h3>
+            <p>604.123.4567</p>
+          </div>
+          <div class="box">
+            <i class="fas fa-envelope fa-3x"></i>
+            <h3>Email Address</h3>
+            <p>guest@hotelbc.com</p>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer id="main-footer">
+      <p>Hotel BC &copy; 2020, All rights reservered.</p>
+    </footer>
+  </body>
+</html>

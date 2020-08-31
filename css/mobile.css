@@ -1,0 +1,75 @@
+/* Navbar */
+
+#navbar .logo {
+    float: none;
+    text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+    float: none;
+}
+
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/*Home page*/
+/* Showcase */
+
+#showcase {
+    height: 100%;
+}
+#showcase .showcase-content {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Home info section  */
+#home-info {
+    height: 100%;
+}
+
+#home-info .info-img {
+ display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+
+
+/* Three boxes used on home and contact pages  */
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+
+/*About page*/
+
+/* About info section */
+
+#about-info .info-right {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+}
+
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+/* Contact Page  */
+
+#contact-info .box {
+    border-bottom: #555 1px dotted;
+}
